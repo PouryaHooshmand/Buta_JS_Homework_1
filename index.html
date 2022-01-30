@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+        <div id="postdata">
+            <input type="number" name="userId" placeholder="User ID" id="uid">
+            <br>
+            <input type="number" name="id" placeholder="Post ID" id="id">
+            <br>
+            <input type="text" name="title" placeholder="Title" id="title">
+            <br>
+            <input type="text" name="body" placeholder="Body" id="body">
+            <br>
+            <button id="post_btn">Post</button>
+            <p id="ans"><br></p>
+        </div>
+
+        <div id="getdata">
+            <input type="number" name="id" placeholder="Post ID" id="id2">
+            <br>
+            <button id="get_btn">Get</button>
+        </div>
+
+        <div id="post">
+            <h3>Post:</h3>
+            <p id="show_post"><br></p>
+        </div>
+
+        <div id="postlist">
+            <h3>All posts:</h3>
+            <p id="post_list"><br></p>
+        </div>
+        
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <script src="./scripts/app.js"></script>
+    </body>
+</html>
